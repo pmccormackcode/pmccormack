@@ -1,0 +1,177 @@
+﻿
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/mystyle.css" />
+
+    <style>
+
+        input[type=text], select, textarea {
+            width: 96%;
+            padding: 5px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box;
+            margin: 15px;
+            resize: vertical
+        }
+     h3   {
+          font-size: 300%;
+          text-align: center;
+        }
+
+        input[type=submit] {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            input[type=submit]:hover {
+                background-color: darkred;
+            }
+
+        .container {
+            border-radius: 5px;
+            background-color: #d17e7e;
+            padding: 20px;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 2px;
+            padding: 0;
+            background-color: white;
+        }
+
+        li, ul, a, button {
+            font-family: "Montserrat", Arial;
+            font-weight: 500;
+            font-size: 16px;
+            color: black;
+            text-decoration: none;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 5%;
+        }
+        .nav-item {
+            list-style: none;
+        }
+
+            .nav-item li {
+                padding: 0px 20px;
+                display: inline-block;
+            }
+
+                .nav-item li a:hover {
+                    color: #ff0000
+                }
+        .logo {
+            cursor: pointer;
+        }
+
+        .nav-item {
+            list-style: none;
+        }
+
+            .nav-item li {
+                padding: 0px 20px;
+                display: inline-block;
+            }
+
+        input[type=submit]:hover {
+            background-color: darkred;
+        }
+
+        button {
+            padding: 5px 20px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            background-color: darkred;
+            color: white;
+        }
+
+            button:hover {
+                color: #ff0000
+            }
+        
+    </style>
+
+    <title>Contact me</title>
+</head>
+<body>
+    <header>
+        <a href="mccormack.index.html"><img class="logo" src="images/bicep.png" width="60" height="50" alt="logo"></a>
+        <!-- NavBar -->
+        <nav>
+            <ul class="nav-item">
+                <li><a href="bench.index.html">Bench Press</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="deadlift.index.html">Deadlift</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="squat.index.html">Squat</a>
+                </li>
+            </ul>
+        </nav>
+            <form style="display: inline" action="contact-me.index.html" method="get">
+            <button>Contact</button>
+        </form>
+    </header>
+    <h3>Contact Me</h3>
+    <br>
+    <!--buttons-->
+    <div class="d-flex justify-content-center">
+        <a class="btn btn-primary" href="https://www.instagram.com/monclermccormack1/" role="button">Instagram</a>
+    </div>
+    <br>
+
+    <!--contact form-->
+    <div class="container">
+        <form action="/my-handling-form-page" method="post">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="canada">Canada</option>
+                <option value="usa">United States</option>
+                <option value="usa">Australia</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:180px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+    <br />
+    <br />
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html> 

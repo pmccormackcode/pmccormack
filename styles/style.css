@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 0;
+    background-color: white;
+}
+
+li, ul, a, button {
+    font-family: "Montserrat", Arial;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+}
+.logo{
+    cursor: pointer;
+    margin: 1px;
+}
+.nav-item {
+    list-style: none;
+}
+.nav-item li{
+    padding: 0px 20px;
+    display: inline-block;
+}
+.nav-item li a:hover {
+        color: #ff0000
+}
+
+button {
+    padding: 5px 12px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: darkred;
+    color: white;
+}
+    button:hover {
+        color: #ff0000;
+    }
+h1 {
+    text-align: center;
+    font-size: 400%;
+}
+h2 {
+    text-align: center;
+    font-size: 150%;
+}
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    align-content: center;
+}
+
+ .iframe-container iframe {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        padding: 2px;
+        border: 0;
+    }
